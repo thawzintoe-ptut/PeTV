@@ -21,4 +21,17 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "PeTV"
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 include(":app")
+include(":core")
+include(":core:common")
+include(":core:designsystem")
+include(":core:data")
+include(":core:network")
+include(":core:database")
+include(":core:datastore")
+include(":core:domain")
+include(":core:model")
+include(":core:screenshot-testing")
+include(":core:testing")
+include(":core:ui")

@@ -92,3 +92,31 @@ $docs/images/graphs/dep_graph_app.svg,f/5/f55040771bde0d1bac505c16ce3518e9abff0
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+L
+core/common/build.gradle.kts,3/3/33faeab8056c945e58d920d723c6a36420381b51
+x
+Hbuild-logic/convention/src/main/kotlin/AndroidLibraryConventionPlugin.kt,b/7/b74310c44a68e372cd428be36f32813b39627f85
+J
+core/data/build.gradle.kts,f/4/f4478630ebacf5eb78d8fddbf2b884e78aef0d50
+N
+core/database/build.gradle.kts,c/9/c93dae2df05c386dfd2cb93bc9836d73b1efcb4b
+u
+Ebuild-logic/convention/src/main/kotlin/AndroidRoomConventionPlugin.kt,c/b/cbb39e06b1e34b9e20d68bb93e6d10ed0dc76ce5
+O
+core/datastore/build.gradle.kts,3/3/331bf18c57f9a94b61c8cf3c554f2643e12df0e6
+R
+"core/designsystem/build.gradle.kts,4/8/48c417db29ed7b936ecf7ac2b953f54da71f649a
+L
+core/domain/build.gradle.kts,f/6/f6899d750c55b14a51220f253d74a5cc3ad0be8b
+K
+core/model/build.gradle.kts,9/3/934dbdec0dfe573cbf98bf8707c0766a31a96299
+M
+core/network/build.gradle.kts,2/9/29b8be2dc5289918ec30fe99fcc72fa2d08c55d3
+K
+secrets.defaults.properties,6/f/6fd53b705462a6febb94a2b42c49781d196a55f7
+X
+(core/screenshot-testing/build.gradle.kts,5/8/58228fab3a8a7028e0bf458a7f1946e42d03892b
+M
+core/testing/build.gradle.kts,a/1/a14d1912e1c9c5fa178fe55d72a4d1193dab2ec7
+H
+core/ui/build.gradle.kts,3/7/37ac634a63a3a2598e24b30a6e1a0c494c981837
