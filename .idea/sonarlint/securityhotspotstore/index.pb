@@ -87,3 +87,8 @@ K
 0app/dependencies/prodReleaseRuntimeClasspath.txt,9/5/95d1f54df8c3c43882781c7395bcbe8dc2b27733
 C
 app/prodRelease.txt,6/3/6322650015a4dfa9d9afa2f8642b69a08f010133
+T
+$docs/images/graphs/dep_graph_app.svg,f/5/f55040771bde0d1bac505c16ce3518e9abff0561
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
