@@ -1,3 +1,5 @@
+import org.gradle.internal.impldep.org.bouncycastle.asn1.iana.IANAObjectIdentifiers.experimental
+
 pluginManagement {
 	repositories {
 		google {
@@ -21,4 +23,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "PMovie"
 include(":app")
+include(":build-logic:convention")
  

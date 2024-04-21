@@ -1,3 +1,29 @@
 
 P
  app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
+C
+settings.gradle.kts,7/4/749edfcc96398253e5b3416184e95c46621da850
+W
+'build-logic/convention/build.gradle.kts,9/9/99f7df95075435b34256f1c62cb0879a53a3887c
+@
+build.gradle.kts,d/b/dbcff70658daf80b53ce624f6adcaa529df5ed8d
+D
+app/build.gradle.kts,d/2/d2a4383452aad84a18429a5844d31330a012a9e6
+I
+gradle/libs.versions.toml,d/7/d7595319a0658be6f1ed500ad590d42e4b28bc4f
+M
+build-logic/gradle.properties,3/0/30f430aed8b2364fe3d97154334124115dc2653c
+O
+build-logic/settings.gradle.kts,8/a/8a9538c8795ca8e7ea13540a81b1a74a99df58e8
+A
+gradle.properties,2/a/2afbb999f001938c88fa43fc2ef52abf0f8213e4
+ƒ
+Sbuild-logic/convention/src/main/kotlin/AndroidApplicationComposeConventionPlugin.kt,e/e/ee4c3045d5b914833f5bd262728fa45f42c00d50
+|
+Lbuild-logic/convention/src/main/kotlin/AndroidApplicationConventionPlugin.kt,c/5/c57871b8f47d58f0f7b371536988053a96c4b52b
+w
+Gbuild-logic/convention/src/main/kotlin/com/ptut/pmovie/PetvBuildType.kt,2/e/2eecb5fc612047c4fe4f135fe84e32062bc15dd7
+x
+Hbuild-logic/convention/src/main/kotlin/com/ptut/pmovie/DrinkWizFlavor.kt,5/2/529570c533b33a9396bc97a497867f6b3852a8ca
+t
+Dbuild-logic/convention/src/main/kotlin/com/ptut/pmovie/PetvFlavor.kt,0/0/00dcd223aa607976fae58093ce696e1e8ac14080

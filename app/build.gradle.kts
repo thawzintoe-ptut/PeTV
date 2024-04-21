@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-	namespace = "com.ptut.pmovie"
+	namespace = libs.versions.nameSpace.get()
 	compileSdk = 34
 
 	defaultConfig {
-		applicationId = "com.ptut.pmovie"
+		applicationId = libs.versions.nameSpace.get()
 		minSdk = 24
 		targetSdk = 34
 		versionCode = 1
