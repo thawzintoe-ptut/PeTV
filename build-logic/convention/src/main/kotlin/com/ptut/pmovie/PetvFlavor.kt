@@ -20,7 +20,7 @@ enum class PetvFlavor(val dimension: FlavorDimension, val applicationIdSuffix: S
 }
 
 fun configureFlavors(
-    commonExtension: CommonExtension<*, *, *, *, *>,
+    commonExtension: CommonExtension<*, *, *, *, *, *>,
     flavorConfigurationBlock: ProductFlavor.(flavor: PetvFlavor) -> Unit = {}
 ) {
     commonExtension.apply {
