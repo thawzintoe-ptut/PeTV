@@ -35,6 +35,7 @@
             <option value="$PROJECT_DIR$/core/screenshot-testing" />
             <option value="$PROJECT_DIR$/core/testing" />
             <option value="$PROJECT_DIR$/core/ui" />
+            <option value="$PROJECT_DIR$/feature" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />

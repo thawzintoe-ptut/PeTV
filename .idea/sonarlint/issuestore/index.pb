@@ -23,8 +23,6 @@ Sbuild-logic/convention/src/main/kotlin/AndroidApplicationComposeConventionPlugi
 Lbuild-logic/convention/src/main/kotlin/AndroidApplicationConventionPlugin.kt,c/5/c57871b8f47d58f0f7b371536988053a96c4b52b
 w
 Gbuild-logic/convention/src/main/kotlin/com/ptut/pmovie/PetvBuildType.kt,2/e/2eecb5fc612047c4fe4f135fe84e32062bc15dd7
-x
-Hbuild-logic/convention/src/main/kotlin/com/ptut/pmovie/DrinkWizFlavor.kt,5/2/529570c533b33a9396bc97a497867f6b3852a8ca
 t
 Dbuild-logic/convention/src/main/kotlin/com/ptut/pmovie/PetvFlavor.kt,0/0/00dcd223aa607976fae58093ce696e1e8ac14080
 x
@@ -39,10 +37,6 @@ p
 @build-logic/convention/src/main/kotlin/com/ptut/pmovie/Jacoco.kt,7/0/701c8f58f6243d903712dbe762bbc9831950e3fe
 w
 Gbuild-logic/convention/src/main/kotlin/com/ptut/pmovie/KotlinAndroid.kt,4/0/403f161aea83668f98fa2d282bd2200a13c7dcc7
-v
-Fbuild-logic/convention/src/main/kotlin/com/ptut/pmovie/NiaBuildType.kt,4/d/4d0d62829e0c20045296a4e748093157ffc18fb9
-s
-Cbuild-logic/convention/src/main/kotlin/com/ptut/pmovie/NiaFlavor.kt,c/d/cd0df08f4e89404226985790b69f638b37fe24fa
 w
 Gbuild-logic/convention/src/main/kotlin/com/ptut/pmovie/PrintTestApks.kt,0/4/04da45a5bba15b2d54a39ec12e92403c7443f6c4
 {
@@ -57,8 +51,6 @@ E
 build-logic/README.md,0/4/0410f19991967c7e7d60dbb6b47c446699f7d97b
 F
 gradle/init.gradle.kts,7/9/79abaae3713cf265cfece5cec39af2ef82a103c8
-P
- tools/nowinandroid-codestyle.xml,5/a/5a9db88b0e7f87938213003b2329643b93693bb1
 H
 tools/petv-codestyle.xml,4/d/4db7556ff9434f636db8d63a791208e9847a34b3
 >
@@ -81,8 +73,6 @@ G
 generateModuleGraphs.sh,f/4/f4d43eeed3b5fdc290e09df1e6d831d06d68ee06
 F
 app/proguard-rules.pro,9/e/9e08934d811afe28fbc77aaa3c0d747b94348db9
-K
-app/prodRelease-badging.txt,e/1/e12e1eae4d1fc8e745943fae268e9f4b798b1d8c
 `
 0app/dependencies/prodReleaseRuntimeClasspath.txt,9/5/95d1f54df8c3c43882781c7395bcbe8dc2b27733
 C
@@ -120,3 +110,31 @@ M
 core/testing/build.gradle.kts,a/1/a14d1912e1c9c5fa178fe55d72a4d1193dab2ec7
 H
 core/ui/build.gradle.kts,3/7/37ac634a63a3a2598e24b30a6e1a0c494c981837
+~
+Nbuild-logic/convention/src/main/kotlin/AndroidLibraryJacocoConventionPlugin.kt,1/f/1fd449ade486b66eacf0e0ed0e71d2669f880db1
+„
+Tbuild-logic/convention/src/main/kotlin/AndroidApplicationFirebaseConventionPlugin.kt,e/7/e7f4abb3a97d316b2682fe2d8d0f38aed55bfe94
+ƒ
+Sbuild-logic/convention/src/main/kotlin/AndroidApplicationFlavorsConventionPlugin.kt,6/2/62ce3d6a5198852231d157d27c9e2ea2868a82a3
+
+Obuild-logic/convention/src/main/kotlin/AndroidLibraryComposeConventionPlugin.kt,1/1/11cf3f8291ee677c1e5b1c5b31db6c097ae184f4
+I
+tools/scripts/checksum.sh,5/a/5a00ab9fb399af6ea082feb170d38f45b8a87256
+Y
+)tools/scripts/duplicate_version_config.sh,e/f/ef42cf72858474db029e7b6027c4d2d31cde99e1
+G
+tools/scripts/format.sh,7/f/7fb0ab2708f7afa906f05543c4d6dc4bd4acb952
+R
+"tools/scripts/gradlew_recursive.sh,0/f/0ffdf6ff7dee7f14934b82c546c9bd10dcc51f41
+M
+tools/scripts/init.gradle.kts,4/5/45ee6229cfa9606f9b9ac2cf49e073c89cd1c073
+N
+tools/scripts/test_snapshot.sh,b/d/bdab2c6979ddebaa246e846be72bb3e3db3e8bf8
+X
+(tools/scripts/toml-updater-config.gradle,6/c/6cc841fb2161eea897630164ecbfc3dae4d7d922
+K
+tools/scripts/updateDeps.sh,6/2/62ac5358594fbca20a5bde3c13dc10c9499452ee
+O
+tools/scripts/verify_samples.sh,9/0/90f9af2c9be71a88a87929278ccf6c3516d1da02
+M
+feature/home/build.gradle.kts,b/e/be4e288f08b8cb3c35191b1a7d3e737f2a0057e5
