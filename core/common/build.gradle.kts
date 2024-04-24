@@ -11,4 +11,5 @@ android {
 dependencies {
     testImplementation(libs.kotlinx.coroutines.test)
     testImplementation(libs.turbine)
+    implementation(libs.arrow.core)
 }

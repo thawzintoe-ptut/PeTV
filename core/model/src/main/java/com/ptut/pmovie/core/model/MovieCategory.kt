@@ -1,4 +1,4 @@
-package com.ptut.pmovie.core.network.service
+package com.ptut.pmovie.core.model
 
 enum class MovieCategory(val type: String) {
     UPCOMING("upcoming"),

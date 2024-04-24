@@ -16,6 +16,12 @@ dependencies {
     api(projects.core.model)
 
     implementation(libs.kotlinx.datetime)
-
     androidTestImplementation(projects.core.testing)
+    // room
+    implementation(libs.room.runtime)
+    ksp(libs.room.compiler)
+    implementation(libs.room.ktx)
+    implementation(libs.room.paging)
+    // gson
+    implementation(libs.gson)
 }

@@ -15,4 +15,6 @@ dependencies {
     implementation(libs.javax.inject)
 
     testImplementation(projects.core.testing)
+    // paging
+    implementation(libs.androidx.paging.compose)
 }

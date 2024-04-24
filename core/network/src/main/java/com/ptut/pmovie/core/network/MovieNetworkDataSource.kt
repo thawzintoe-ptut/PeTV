@@ -1,17 +1,12 @@
 package com.ptut.pmovie.core.network
 
-import androidx.paging.PagingData
+import arrow.core.Either
 import com.ptut.pmovie.core.model.Movie
-import kotlinx.coroutines.flow.Flow
+import com.ptut.pmovie.core.model.MovieCategory
 
 interface MovieNetworkDataSource {
-    fun getTrendingMoviesThisWeek(): Flow<PagingData<Movie>>
-
-    fun getUpcomingMovies(): Flow<PagingData<Movie>>
-
-    fun getTopRatedMovies(): Flow<PagingData<Movie>>
-
-    fun getNowPlayingMovies(): Flow<PagingData<Movie>>
-
-    fun getPopularMovies(): Flow<PagingData<Movie>>
+    suspend fun getMovies(
+        movieCategory: MovieCategory,
+        page: Int,
+    ): Either<Throwable, List<Movie>>
 }

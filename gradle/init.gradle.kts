@@ -22,16 +22,28 @@ rootProject {
                 ktlint(ktlintVersion).editorConfigOverride(
                     mapOf(
                         "android" to "true",
+                        "ktlint_code_style" to "android",
+                        "ij_kotlin_allow_trailing_comma" to true,
+                        "disabled_rules" to
+                                    "filename," +
+                                    "annotation,annotation-spacing," +
+                                    "argument-list-wrapping," +
+                                    "double-colon-spacing," +
+                                    "enum-entry-name-case," +
+                                    "multiline-if-else," +
+                                    "no-empty-first-line-in-method-block," +
+                                    "package-name," +
+                                    "trailing-comma," +
+                                    "spacing-around-angle-brackets," +
+                                    "spacing-between-declarations-with-annotations," +
+                                    "spacing-between-declarations-with-comments," +
+                                    "unary-op-spacing"
                     ),
                 )
             }
             format("kts") {
                 target("**/*.kts")
                 targetExclude("**/build/**/*.kts")
-            }
-            format("xml") {
-                target("**/*.xml")
-                targetExclude("**/build/**/*.xml")
             }
         }
     }

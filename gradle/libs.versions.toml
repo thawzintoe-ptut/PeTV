@@ -8,7 +8,7 @@ composeOptionVersion = "1.5.12"
 accompanist = "0.34.0"
 androidDesugarJdkLibs = "2.0.4"
 # AGP and tools should be updated together
-androidGradlePlugin = "8.5.0-alpha05"
+androidGradlePlugin = "8.3.2"
 androidTools = "31.3.2"
 androidxActivity = "1.9.0"
 androidxAppCompat = "1.6.1"
@@ -73,6 +73,8 @@ ktor = "2.3.10"
 timber = "5.0.1"
 arrowkt = "1.2.4"
 pagingCompose = "3.2.1"
+slackComposeLint = "1.3.1"
+gson = "2.10.1"
 
 [libraries]
 accompanist-permissions = { group = "com.google.accompanist", name = "accompanist-permissions", version.ref = "accompanist" }
@@ -152,6 +154,7 @@ roborazzi = { group = "io.github.takahirom.roborazzi", name = "roborazzi", versi
 room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
 room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
 room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+room-paging = { group = "androidx.room", name = "room-paging", version.ref = "room" }
 truth = { group = "com.google.truth", name = "truth", version.ref = "truth" }
 turbine = { group = "app.cash.turbine", name = "turbine", version.ref = "turbine" }
 timber = { group = "com.jakewharton.timber", name = "timber", version.ref = "timber" }
@@ -170,6 +173,9 @@ arrow-core = { group = "io.arrow-kt", name = "arrow-core", version.ref = "arrowk
 arrow-fx = { group = "io.arrow-kt", name = "arrow-fx-coroutines", version.ref = "arrowkt" }
 # paging
 androidx-paging-compose = { module = "androidx.paging:paging-compose", version.ref = "pagingCompose" }
+# compose-lint
+compose-lint = { group = "com.slack.lint.compose", name = "compose-lint-checks", version.ref = "slackComposeLint" }
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
 
 # Dependencies of the included build-logic
 android-gradlePlugin = { group = "com.android.tools.build", name = "gradle", version.ref = "androidGradlePlugin" }
@@ -218,4 +224,3 @@ petv-android-room = { id = "petv.android.room", version = "unspecified" }
 petv-android-test = { id = "petv.android.test", version = "unspecified" }
 petv-jvm-library = { id = "petv.jvm.library", version = "unspecified" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlinVersion" }
-

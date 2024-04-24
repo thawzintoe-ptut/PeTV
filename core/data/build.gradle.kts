@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.petv.android.library)
     alias(libs.plugins.petv.android.library.jacoco)
     alias(libs.plugins.petv.android.hilt)
+    alias(libs.plugins.petv.android.room)
     id("kotlinx-serialization")
 }
 
@@ -18,4 +19,6 @@ dependencies {
     testImplementation(libs.kotlinx.coroutines.test)
     testImplementation(libs.kotlinx.serialization.json)
     testImplementation(projects.core.testing)
+    // paging
+    implementation(libs.androidx.paging.compose)
 }
