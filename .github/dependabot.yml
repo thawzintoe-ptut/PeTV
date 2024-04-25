@@ -5,9 +5,17 @@
 
 version: 2
 updates:
- - package-ecosystem: "gradle" 
-      directory: "/" 
-      schedule: 
-        interval: "weekly"
-        day: "monday"
-        rebase-strategy: "disabled"
+  - package-ecosystem: "gradle"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    registries: "*"
+    labels: [ "version update" ]
+    groups:
+      kotlin-ksp-compose:
+        patterns:
+          - "org.jetbrains.kotlin:*"
+          - "org.jetbrains.kotlin.jvm"
+          - "com.google.devtools.ksp"
+          - "androidx.compose.compiler:compiler"
+    open-pull-requests-limit: 10
