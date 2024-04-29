@@ -53,8 +53,10 @@ class AndroidLibraryConventionPlugin : Plugin<Project> {
             }
             dependencies {
                 add("testImplementation", kotlin("test"))
-
                 add("implementation", libs.findLibrary("androidx.tracing.ktx").get())
+
+                // Mockk is used for mocking in tests
+                add("implementation", libs.findLibrary("mockk").get())
             }
         }
     }

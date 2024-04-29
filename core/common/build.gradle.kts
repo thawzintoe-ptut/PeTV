@@ -6,6 +6,9 @@ plugins {
 
 android {
     namespace = "${libs.versions.nameSpace.get()}.core.common"
+    defaultConfig {
+        minSdk = libs.versions.minSdk.get().toInt()
+    }
 }
 
 dependencies {

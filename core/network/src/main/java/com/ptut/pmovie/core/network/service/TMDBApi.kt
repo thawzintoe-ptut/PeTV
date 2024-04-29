@@ -7,6 +7,10 @@ import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query
 
+object TMDBApiRoutes {
+    const val MOVIES = "/3/movie"
+}
+
 interface TMDBApi {
     @GET("trending/movie/day")
     suspend fun getTrendingMovies(

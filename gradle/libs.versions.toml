@@ -59,13 +59,13 @@ protobuf = "3.25.2"
 protobufPlugin = "0.9.4"
 retrofit = "2.11.0"
 retrofitKotlinxSerializationJson = "1.0.0"
-robolectric = "4.11.1"
-roborazzi = "1.7.0"
+robolectric = "4.12.1"
+roborazzi = "1.11.0"
 room = "2.6.1"
 secrets = "2.0.1"
 truth = "1.4.2"
 turbine = "1.1.0"
-kotlinVersion = "1.9.0"
+kotlinVersion = "1.9.23"
 junit = "4.13.2"
 junitVersion = "1.1.5"
 material = "1.11.0"
@@ -75,6 +75,10 @@ arrowkt = "1.2.4"
 pagingCompose = "3.2.1"
 slackComposeLint = "1.3.1"
 gson = "2.10.1"
+junit5 = "1.10.0.0"
+jupiter = "5.10.0"
+mockk = "1.13.10"
+assertk = "0.28.0"
 
 [libraries]
 accompanist-permissions = { group = "com.google.accompanist", name = "accompanist-permissions", version.ref = "accompanist" }
@@ -168,6 +172,7 @@ ktor-client-serialization = { module = "io.ktor:ktor-client-serialization", vers
 ktor-client-serialization-kotlinx-json = { module = "io.ktor:ktor-serialization-kotlinx-json", version.ref = "ktor" }
 ktor-client-logging = { module = "io.ktor:ktor-client-logging", version.ref = "ktor" }
 ktor-client-encoding = { module = "io.ktor:ktor-client-encoding", version.ref = "ktor" }
+ktor-client-mock = { module = "io.ktor:ktor-client-mock", version.ref = "ktor" }
 # arrow-kt
 arrow-core = { group = "io.arrow-kt", name = "arrow-core", version.ref = "arrowkt" }
 arrow-fx = { group = "io.arrow-kt", name = "arrow-fx-coroutines", version.ref = "arrowkt" }
@@ -176,6 +181,14 @@ androidx-paging-compose = { module = "androidx.paging:paging-compose", version.r
 # compose-lint
 compose-lint = { group = "com.slack.lint.compose", name = "compose-lint-checks", version.ref = "slackComposeLint" }
 gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
+# junit5
+junit-jupiter-api = { group = "org.junit.jupiter", name = "junit-jupiter-api", version.ref = "jupiter" }
+junit-jupiter-engine = { group = "org.junit.jupiter", name = "junit-jupiter-engine", version.ref = "jupiter" }
+junit-jupiter-params = { group = "org.junit.jupiter", name = "junit-jupiter-params", version.ref = "jupiter" }
+# mockk
+mockk = { group = "io.mockk", name = "mockk", version.ref = "mockk" }
+# assertk
+assertk = { group = "com.willowtreeapps.assertk", name = "assertk-jvm", version.ref = "assertk" }
 
 # Dependencies of the included build-logic
 android-gradlePlugin = { group = "com.android.tools.build", name = "gradle", version.ref = "androidGradlePlugin" }
@@ -207,6 +220,7 @@ protobuf = { id = "com.google.protobuf", version.ref = "protobufPlugin" }
 roborazzi = { id = "io.github.takahirom.roborazzi", version.ref = "roborazzi" }
 room = { id = "androidx.room", version.ref = "room" }
 secrets = { id = "com.google.android.libraries.mapsplatform.secrets-gradle-plugin", version.ref = "secrets" }
+junit5 = { id = "de.mannodermaus.android-junit5", version.ref = "junit5" }
 
 # Plugins defined by this project
 petv-android-application = { id = "petv.android.application", version = "unspecified" }

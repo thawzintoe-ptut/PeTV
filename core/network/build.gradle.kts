@@ -18,6 +18,10 @@ android {
     }
 }
 
+tasks.withType<Test> {
+    useJUnitPlatform()
+}
+
 secrets {
     defaultPropertiesFileName = "secrets.defaults.properties"
 }
@@ -45,10 +49,21 @@ dependencies {
     implementation(libs.ktor.client.serialization.kotlinx.json)
     implementation(libs.ktor.client.logging)
     implementation(libs.ktor.client.negotiation)
+    implementation(libs.ktor.client.mock)
 
     // Timber
     implementation(libs.timber)
 
     // paging
     implementation(libs.androidx.paging.compose)
+
+    // junit5
+    testImplementation(libs.junit.jupiter.api)
+    testRuntimeOnly(libs.junit.jupiter.engine)
+    testImplementation(libs.junit.jupiter.params)
+
+    // Mockk
+    testImplementation(libs.mockk)
+    // assertk
+    testImplementation(libs.assertk)
 }

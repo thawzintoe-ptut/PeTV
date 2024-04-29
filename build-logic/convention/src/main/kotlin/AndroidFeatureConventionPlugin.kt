@@ -32,7 +32,7 @@ class AndroidFeatureConventionPlugin : Plugin<Project> {
             extensions.configure<LibraryExtension> {
                 defaultConfig {
                     testInstrumentationRunner =
-                        "com.google.samples.apps.petv.core.testing.NiaTestRunner"
+                        "com.ptut.pmovie.core.testing.PetvTestRunner"
                 }
                 testOptions.animationsDisabled = true
                 configureGradleManagedDevices(this)
@@ -49,7 +49,15 @@ class AndroidFeatureConventionPlugin : Plugin<Project> {
                 add("implementation", libs.findLibrary("androidx.lifecycle.viewModelCompose").get())
                 add("implementation", libs.findLibrary("androidx.tracing.ktx").get())
 
-                add("androidTestImplementation", libs.findLibrary("androidx.lifecycle.runtimeTesting").get())
+                add(
+                    "androidTestImplementation",
+                    libs.findLibrary("androidx.lifecycle.runtimeTesting").get(),
+                )
+
+                // junit5
+                add("testImplementation", libs.findLibrary("junit.jupiter.api").get())
+                add("testRuntimeOnly", libs.findLibrary("junit.jupiter.engine").get())
+                add("testImplementation", libs.findLibrary("junit.jupiter.params").get())
             }
         }
     }
