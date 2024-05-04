@@ -16,6 +16,7 @@ enum class FlavorDimension {
 @Suppress("EnumEntryName")
 enum class PetvFlavor(val dimension: FlavorDimension, val applicationIdSuffix: String? = null) {
     demo(FlavorDimension.contentType, applicationIdSuffix = ".demo"),
+    uat(FlavorDimension.contentType, applicationIdSuffix = ".uat"),
     prod(FlavorDimension.contentType)
 }
 

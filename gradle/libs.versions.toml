@@ -79,6 +79,8 @@ junit5 = "1.10.0.0"
 jupiter = "5.10.0"
 mockk = "1.13.10"
 assertk = "0.28.0"
+googleFirebaseAppdistribution = "5.0.0"
+
 
 [libraries]
 accompanist-permissions = { group = "com.google.accompanist", name = "accompanist-permissions", version.ref = "accompanist" }
@@ -238,3 +240,4 @@ petv-android-room = { id = "petv.android.room", version = "unspecified" }
 petv-android-test = { id = "petv.android.test", version = "unspecified" }
 petv-jvm-library = { id = "petv.jvm.library", version = "unspecified" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlinVersion" }
+google-firebase-appdistribution = { id = "com.google.firebase.appdistribution", version.ref = "googleFirebaseAppdistribution" }

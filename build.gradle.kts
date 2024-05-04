@@ -18,6 +18,7 @@ plugins {
     alias(libs.plugins.module.graph) apply true
     alias(libs.plugins.jetbrains.kotlin.android) apply false
     alias(libs.plugins.junit5) apply false
+	alias(libs.plugins.google.firebase.appdistribution) apply false
 }
 
 // Task to print all the module paths in the project e.g. :core:data
