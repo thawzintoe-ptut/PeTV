@@ -7,6 +7,8 @@ plugins {
     alias(libs.plugins.petv.android.application.jacoco)
     alias(libs.plugins.petv.android.hilt)
     alias(libs.plugins.roborazzi)
+    alias(libs.plugins.google.firebase.appdistribution)
+    alias(libs.plugins.gms)
 }
 
 android {
@@ -31,6 +33,7 @@ android {
             isMinifyEnabled = true
             applicationIdSuffix = PetvBuildType.RELEASE.applicationIdSuffix
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+            signingConfig = signingConfigs.named("debug").get()
         }
     }
 
@@ -89,6 +92,11 @@ dependencies {
     androidTestImplementation(libs.androidx.navigation.testing)
     androidTestImplementation(libs.androidx.compose.ui.test)
     androidTestImplementation(libs.hilt.android.testing)
+
+    // firebase
+    implementation(platform(libs.firebase.bom))
+    implementation(libs.firebase.crashlytics)
+    implementation(libs.firebase.analytics)
 }
 
 dependencyGuard {
