@@ -10,7 +10,6 @@ import com.ptut.pmovie.core.network.ktor.createClient
 import com.ptut.pmovie.core.network.ktor.errorKtorClient
 import com.ptut.pmovie.core.network.ktor.successKtorClient
 import com.ptut.pmovie.core.network.util.AddLogExt
-import io.ktor.client.HttpClient
 import io.ktor.http.HttpStatusCode
 import io.mockk.spyk
 import kotlinx.coroutines.runBlocking
@@ -21,7 +20,6 @@ import org.junit.jupiter.api.extension.ExtendWith
 @ExtendWith(AddLogExt::class)
 class MovieNetworkDataSourceImplTest {
     private lateinit var movieDataSource: MovieNetworkDataSource
-    private lateinit var ktorClient: HttpClient
 
     @Test
     @DisplayName("success movies when fetching")
